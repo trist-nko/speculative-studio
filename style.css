@@ -3,7 +3,7 @@
   --bg-color: aliceblue;
   --window-background-color: #fff;
   --text-main-color: #121212;
-  --text-alt-color: #000080;
+  --text-alt-color: #d77a00;
   --border-color: #b8b8b8;
 
   /* Font Families */
@@ -48,9 +48,72 @@ button {
   background-color: var(--window-background-color);
   padding: 8px;
   margin-top: 16px;
+  box-sizing: border-box;
+  border: 25px solid var(--border-color);
+}
+
+.window-title {
+  margin-bottom: 8px;
 }
 
 .title-bar {
   display: flex;
   justify-content: space-between;
+}
+
+.split-view {
+  gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar-box {
+  border: 2px dashed var(--text-alt-color);
+  height: 55vh;
+  width: 45vw;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 8px;
+  margin-bottom: 8px;
+}
+
+.clothes {
+  flex: 1;
+}
+
+.clothes p {
+  border-bottom: 2px solid;
+}
+
+.btn {
+  display: block;
+  margin-bottom: 24px;
+  min-width: 100%;
+  text-align: left;
+  padding: 8px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.vignette-window {
+  background-color: var(--window-background-color);
+  margin-top: 16px;
+  padding: 8px;
+  border: 3px solid var(--border-color);
+  color: var(--text-main-color);
+}
+
+.vignette-text-header {
+  border-bottom: 2px solid var(--text-main-color);
+}
+
+.vignette-text {
+  min-height: 10rem;
+  border: 2px solid var(--text-main-color);
+  margin-top: 8px;
+  font-family: var(--long-text-font);
+  font-weight: 300;
+  padding: 8px;
+  font-size: 1.1rem;
 }

@@ -117,3 +117,27 @@ button {
   padding: 8px;
   font-size: 1.1rem;
 }
+
+/* CATALOG TABLE */
+.catalog-table {
+  width: 100%;
+  border-collapse: collapse;
+  color: var(--text-main-color);
+}
+
+.catalog-table th,
+.catalog-table td {
+  border: 1px solid var(--text-main-color);
+  padding: 8px;
+}
+
+.catalog-table img {
+  width: 50px;
+  border: 1px solid var(--text-alt-color);
+}
+
+.catalog-table .desc {
+  font-family: var(--header-font);
+  font-weight: 300;
+  font-size: 1rem;
+}

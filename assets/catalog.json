@@ -64,6 +64,10 @@
     "description": "Premier full official Pyjama que j'ai acheté dans ma vie sous les bon soins de ma copine lors de notre première année de notre deuxième cohabitation en 10ans de couple. Milestone de confort devenu plaisir coupable!"
   },
   {
+    "id": "IMG_2179.webp",
+    "description": "Cadeau de mon jeune frère avec qui je suis retourné sur le continent africain depuis sa naissance pour aller en côte d'ivoire et entre autre voir la coupe africaine et le pays hôte a gagner!! Ces maillots représente mon plus beau voyage à vie!"
+  },
+  {
     "id": "IMG_2180.webp",
     "description": "Vieux jacket G-Unit cheri et rare ayant appartenu à mon grand-frère, 6 ans mon cadet. Je pensais lui avoir volé à la fin de son université mais en fait il le savait et il ne m'a jamais tenu rigueur. C'était à un certain point mon manteau d'hiver."
   },
@@ -76,8 +80,16 @@
     "description": "I bought those funky pants on Saint Laurent, and as usual, they were in the women’s section and of course, they had no pockets."
   },
   {
+    "id": "IMG_6583.webp",
+    "description": "I wore those black leather pants to a New Year’s Eve party, and I’m not sure if I’ve worn them since. "
+  },
+  {
     "id": "IMG_6585.webp",
     "description": "Best sunglasses for speed"
+  },
+  {
+    "id": "IMG_6587.webp",
+    "description": "One of my friends dropped his boots at my place because he lives in a city where it’s always hot."
   },
   {
     "id": "IMG_7932.webp",
@@ -90,6 +102,10 @@
   {
     "id": "IMG_7934.webp",
     "description": "The upgrade your top drawer deserves. Crafted from incredibly soft, breathable fabric, these redefine daily comfort—you'll never want to go back to the basics again."
+  },
+  {
+    "id": "IMG_7935.webp",
+    "description": "A true wardrobe investment. After 6 years of weekly wear, these pants still deliver the same style and comfort as day one—perfect for the office or the weekend."
   },
   {
     "id": "IMG_7937.webp",
@@ -108,20 +124,48 @@
     "description": "Un tricot que j'aime de tout mon coeur. Il est chaud et très confortable. Je l'ai trouvé en friperie dans ma ville natale. De loin une de mes plus belles trouvailles."
   },
   {
+    "id": "IMG_8508.webp",
+    "description": "De loin mon accessoire favoris du moment. Il est très versatille et il ajoute une touche intéressante à tous mes outfits."
+  },
+  {
+    "id": "IMG_8509.webp",
+    "description": "C'est la plus belle camisole que j'ai dans ma garde-robe. Elle est légère, délicate et très féminine. Je devrais la mettre plus souvent."
+  },
+  {
+    "id": "IMG_8510.webp",
+    "description": "This pair of pants fits amazing, not too long but wide enough. Because of those i discovered that the pants in the workwear section are a lot cheaper than the pants section at value village"
+  },
+  {
+    "id": "IMG_8511.webp",
+    "description": "Got this hoodie my first year of uni, its now pretty beat up but i intend on making myself an identical one once its no longer wearable."
+  },
+  {
+    "id": "IMG_8512.webp",
+    "description": "By far my favorite pair of shorts. Heavy fabric, yet they feel flowy. I wear them around the house in the winter or anytime in the summer."
+  },
+  {
     "id": "IMG_8513.webp",
     "description": "Got those shoes at the start of the school year, I love the fact that i can wear them with pretty much any pair of pants."
+  },
+  {
+    "id": "inbound5790946303057490837.webp",
+    "description": "Hoodie acheté dans un magasin quelconque il y a plusieurs annéées. Utilisé principalement pour prendre l'avion et voyager."
   },
   {
     "id": "inbound8246622716665199741.webp",
     "description": "Chemise qui m'intriguait. J'ai décidé de l'acheter et c'est maintenant une de mes pièces de vêtements préférées."
   },
   {
-    "id": "inbound9217051186544952343 .webp",
+    "id": "inbound9217051186544952343.webp",
     "description": "Chemise portée pendant des journées d'été chaudes. Mise pour la première fois lors d'un voyage à Riviera Maya."
   },
   {
     "id": "jeans.webp",
     "description": "I love the fit on these, I should probably buy another pair. It would be my fourth pair of the same jeans. "
+  },
+  {
+    "id": "jeans_pants.webp",
+    "description": "My first designer piece purchased new in-store. The denim softens with every wear, and I can already tell these pants are going to become incredibly comfortable and my go-to pair."
   },
   {
     "id": "JWA_HOODIES.webp",
@@ -148,11 +192,27 @@
     "description": "One of two pants I bought online. I now realised how lucky I was, because they fit perfectly, and I really have a hard time finding pants in local stores."
   },
   {
+    "id": "pants.webp",
+    "description": "most practical pants. wear it any time"
+  },
+  {
+    "id": "PEARL_NECKLACE.webp",
+    "description": "Given to me by my grandmother, who wore it at my age. So beautiful and precious that I only wear it once or twice a year — I’m too afraid of losing it."
+  },
+  {
     "id": "PLAID_CARDIGAN.webp",
     "description": "A cardigan I’ve had for years and never get tired of. This kind of plaid never goes out of style."
   },
   {
+    "id": "shirt.webp",
+    "description": "Got as a present from mother in law"
+  },
+  {
     "id": "Sports Jacket (Blue).webp",
+    "description": "After a game, Coach asked who was the best player from that game. My teammates chose me. It was appreciated because I really wanted to have a great and fun season with those guys, on and off the pitch."
+  },
+  {
+    "id": "Sports Jacket (White:Green).webp",
     "description": "After a game, Coach asked who was the best player from that game. My teammates chose me. It was appreciated because I really wanted to have a great and fun season with those guys, on and off the pitch."
   },
   {
@@ -160,8 +220,16 @@
     "description": "Bought this one first at UNIQLO, the fabric is incredibly soft. I wear it both as pajamas and as an everyday casual long-sleeve."
   },
   {
+    "id": "Sweater (Nike).webp",
+    "description": "Sweater that my mother kindly bought me back when I was in high school. I feel like I will not throw it away unless it is completely completely torn apart."
+  },
+  {
     "id": "sweater.webp",
     "description": "Comfy sweater and represent best icecream brand."
+  },
+  {
+    "id": "Toque (NHL).webp",
+    "description": "Toque my younger brother bought me for Christmas. It is a toque from my favorite NHL team when I was younger. The toque itself isn't really my style, but I do really appreciate the gesture; to me, my brother is a really generous person."
   },
   {
     "id": "tricot.webp",

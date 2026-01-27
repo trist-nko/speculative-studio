@@ -1,250 +1,312 @@
 [
   {
     "id": "1.png",
-    "description": "Favorite pair of pants ever, comfortable, goes with everything and can wear in almost any situation"
+    "description": "Favorite pair of pants ever, comfortable, goes with everything and can wear in almost any situation",
+    "category": "bottoms"
   },
   {
     "id": "2.png",
-    "description": "Given to me by my grandfather, he got it for volunteering in a golf tournament"
+    "description": "Given to me by my grandfather, he got it for volunteering in a golf tournament",
+    "category": "tops"
   },
   {
     "id": "3.png",
-    "description": "Thrifted by my girlfriend and given to me as a gift, again can wear in multiple situations"
+    "description": "Thrifted by my girlfriend and given to me as a gift, again can wear in multiple situations",
+    "category": "tops"
   },
   {
     "id": "Camisole (SC30).png",
-    "description": "Christmas gift from my older brother. It was the first time someone bought me a uniform from a professional athlete."
+    "description": "Christmas gift from my older brother. It was the first time someone bought me a uniform from a professional athlete.",
+    "category": "tops"
   },
   {
     "id": "cardigan.png",
-    "description": "Most likely the single piece of clothing I have worn the most in the last 10 years. it was a hand-me-down."
+    "description": "Most likely the single piece of clothing I have worn the most in the last 10 years. it was a hand-me-down.",
+    "category": "tops"
   },
   {
     "id": "CREEPER BOOTS.png",
-    "description": "My favorite boots, thrifted two years ago. They make my feet look smaller and are exceptionally high quality."
+    "description": "My favorite boots, thrifted two years ago. They make my feet look smaller and are exceptionally high quality.",
+    "category": "footwear"
   },
   {
     "id": "CROCHET_HAT.png",
-    "description": "This hat started my crochet addiction. Since then, I can’t stop buying different crochet pieces."
+    "description": "This hat started my crochet addiction. Since then, I can’t stop buying different crochet pieces.",
+    "category": "accessories"
   },
   {
     "id": "DRIES_JACKET.png",
-    "description": "Denim jacket purchased in September as a self-reward for the intense work of the past few months, also bought second-hand."
+    "description": "Denim jacket purchased in September as a self-reward for the intense work of the past few months, also bought second-hand.",
+    "category": "tops"
   },
   {
     "id": "FLORAL_VEST.png",
-    "description": "Unique in every way — the shape, the pattern, the colors. Even more special because It was given to me by my beloved boyfriend."
+    "description": "Unique in every way — the shape, the pattern, the colors. Even more special because It was given to me by my beloved boyfriend.",
+    "category": "tops"
   },
   {
     "id": "image.png",
-    "description": "Foulard cadeau de mon ami ayant était en stage au Maroc et ayant visité un peu a penser à moi en voyant les couleurs et lorsqu'on lui a parlé des Amazigh! "
+    "description": "Foulard cadeau de mon ami ayant était en stage au Maroc et ayant visité un peu a penser à moi en voyant les couleurs et lorsqu'on lui a parlé des Amazigh!",
+    "category": "accessories"
   },
   {
     "id": "IMG_0556.webp",
-    "description": "This jersey has been gifted by my girlfriend. It my favorite team and I received it just before watching PSG wins the Champions League"
+    "description": "This jersey has been gifted by my girlfriend. It my favorite team and I received it just before watching PSG wins the Champions League",
+    "category": "tops"
   },
   {
     "id": "IMG_0557.webp",
-    "description": "It represents my roots and Im a big fan of this orange tint"
+    "description": "It represents my roots and Im a big fan of this orange tint",
+    "category": "tops"
   },
   {
     "id": "IMG_0558.webp",
-    "description": "A jacket I bought from MarketPlace, drove 1hour to go get it. Iconic piece"
+    "description": "A jacket I bought from MarketPlace, drove 1hour to go get it. Iconic piece",
+    "category": "tops"
   },
   {
     "id": "IMG_0559.webp",
-    "description": "Tote bag I did myself. The tissue is from an old crewneck of mine "
+    "description": "Tote bag I did myself. The tissue is from an old crewneck of mine",
+    "category": "accessories"
   },
   {
     "id": "IMG_2178 (pants).webp",
-    "description": "Premier full official Pyjama que j'ai acheté dans ma vie sous les bon soins de ma copine lors de notre première année de notre deuxième cohabitation en 10ans de couple. Milestone de confort devenu plaisir coupable!"
+    "description": "Premier full official Pyjama que j'ai acheté dans ma vie sous les bon soins de ma copine lors de notre première année de notre deuxième cohabitation en 10ans de couple. Milestone de confort devenu plaisir coupable!",
+    "category": "bottoms"
   },
   {
     "id": "IMG_2178.webp",
-    "description": "Premier full official Pyjama que j'ai acheté dans ma vie sous les bon soins de ma copine lors de notre première année de notre deuxième cohabitation en 10ans de couple. Milestone de confort devenu plaisir coupable!"
+    "description": "Premier full official Pyjama que j'ai acheté dans ma vie sous les bon soins de ma copine lors de notre première année de notre deuxième cohabitation en 10ans de couple. Milestone de confort devenu plaisir coupable!",
+    "category": "tops"
   },
   {
     "id": "IMG_2179.webp",
-    "description": "Cadeau de mon jeune frère avec qui je suis retourné sur le continent africain depuis sa naissance pour aller en côte d'ivoire et entre autre voir la coupe africaine et le pays hôte a gagner!! Ces maillots représente mon plus beau voyage à vie!"
+    "description": "Cadeau de mon jeune frère avec qui je suis retourné sur le continent africain depuis sa naissance pour aller en côte d'ivoire et entre autre voir la coupe africaine et le pays hôte a gagner!! Ces maillots représente mon plus beau voyage à vie!",
+    "category": "tops"
   },
   {
     "id": "IMG_2180.webp",
-    "description": "Vieux jacket G-Unit cheri et rare ayant appartenu à mon grand-frère, 6 ans mon cadet. Je pensais lui avoir volé à la fin de son université mais en fait il le savait et il ne m'a jamais tenu rigueur. C'était à un certain point mon manteau d'hiver."
+    "description": "Vieux jacket G-Unit cheri et rare ayant appartenu à mon grand-frère, 6 ans mon cadet. Je pensais lui avoir volé à la fin de son université mais en fait il le savait et il ne m'a jamais tenu rigueur. C'était à un certain point mon manteau d'hiver.",
+    "category": "tops"
   },
   {
     "id": "IMG_6581.webp",
-    "description": "This is a perfect black, simple vest with well-designed and discreet broderies. "
+    "description": "This is a perfect black, simple vest with well-designed and discreet broderies. ",
+    "category": "tops"
   },
   {
     "id": "IMG_6582.webp",
-    "description": "I bought those funky pants on Saint Laurent, and as usual, they were in the women’s section and of course, they had no pockets."
+    "description": "I bought those funky pants on Saint Laurent, and as usual, they were in the women’s section and of course, they had no pockets.",
+    "category": "bottoms"
   },
   {
     "id": "IMG_6583.webp",
-    "description": "I wore those black leather pants to a New Year’s Eve party, and I’m not sure if I’ve worn them since. "
+    "description": "I wore those black leather pants to a New Year’s Eve party, and I’m not sure if I’ve worn them since. ",
+    "category": "bottoms"
   },
   {
     "id": "IMG_6585.webp",
-    "description": "Best sunglasses for speed"
+    "description": "Best sunglasses for speed",
+    "category": "accessories"
   },
   {
     "id": "IMG_6587.webp",
-    "description": "One of my friends dropped his boots at my place because he lives in a city where it’s always hot."
+    "description": "One of my friends dropped his boots at my place because he lives in a city where it’s always hot.",
+    "category": "footwear"
   },
   {
     "id": "IMG_7932.webp",
-    "description": "From high-intensity HIIT to the heat of the yoga studio, this shirt is designed to disappear. It’s so light and breathable, you’ll forget you’re wearing anything at all."
+    "description": "From high-intensity HIIT to the heat of the yoga studio, this shirt is designed to disappear. It’s so light and breathable, you’ll forget you’re wearing anything at all.",
+    "category": "tops"
   },
   {
     "id": "IMG_7933.webp",
-    "description": "The perfect crossover piece. Whether you’re closing deals at work or hitting the links, this shirt offers a premium fit and feel that evokes the effortless vibe of a summer getaway."
+    "description": "The perfect crossover piece. Whether you’re closing deals at work or hitting the links, this shirt offers a premium fit and feel that evokes the effortless vibe of a summer getaway.",
+    "category": "tops"
   },
   {
     "id": "IMG_7934.webp",
-    "description": "The upgrade your top drawer deserves. Crafted from incredibly soft, breathable fabric, these redefine daily comfort—you'll never want to go back to the basics again."
+    "description": "The upgrade your top drawer deserves. Crafted from incredibly soft, breathable fabric, these redefine daily comfort—you'll never want to go back to the basics again.",
+    "category": "bottoms"
   },
   {
     "id": "IMG_7935.webp",
-    "description": "A true wardrobe investment. After 6 years of weekly wear, these pants still deliver the same style and comfort as day one—perfect for the office or the weekend."
+    "description": "A true wardrobe investment. After 6 years of weekly wear, these pants still deliver the same style and comfort as day one—perfect for the office or the weekend.",
+    "category": "bottoms"
   },
   {
     "id": "IMG_7937.webp",
-    "description": "The ultimate trail companion from a proud Canadian brand. Engineered for incredible bounce and unshakeable grip, these are quite simply the best shoes to ever hit the dirt."
+    "description": "The ultimate trail companion from a proud Canadian brand. Engineered for incredible bounce and unshakeable grip, these are quite simply the best shoes to ever hit the dirt.",
+    "category": "footwear"
   },
   {
     "id": "IMG_8501.webp",
-    "description": "Un chandail de mon artiste préféré. Je ne l'ai jamais porté puisqu'il est très cher à mes yeux. Il me rapelle la soirée où je l'ai vu en show pour la première fois."
+    "description": "Un chandail de mon artiste préféré. Je ne l'ai jamais porté puisqu'il est très cher à mes yeux. Il me rapelle la soirée où je l'ai vu en show pour la première fois.",
+    "category": "tops"
   },
   {
     "id": "IMG_8502.webp",
-    "description": "J'ai trouvé ces pantalons en friperie et j'en suis vraiment fière. Je les portais toujours à mon ancien emploi. Ça me rend plutôt nostalgique."
+    "description": "J'ai trouvé ces pantalons en friperie et j'en suis vraiment fière. Je les portais toujours à mon ancien emploi. Ça me rend plutôt nostalgique.",
+    "category": "bottoms"
   },
   {
     "id": "IMG_8504.webp",
-    "description": "Un tricot que j'aime de tout mon coeur. Il est chaud et très confortable. Je l'ai trouvé en friperie dans ma ville natale. De loin une de mes plus belles trouvailles."
+    "description": "Un tricot que j'aime de tout mon coeur. Il est chaud et très confortable. Je l'ai trouvé en friperie dans ma ville natale. De loin une de mes plus belles trouvailles.",
+    "category": "tops"
   },
   {
     "id": "IMG_8508.webp",
-    "description": "De loin mon accessoire favoris du moment. Il est très versatille et il ajoute une touche intéressante à tous mes outfits."
+    "description": "De loin mon accessoire favoris du moment. Il est très versatille et il ajoute une touche intéressante à tous mes outfits.",
+    "category": "accessories"
   },
   {
     "id": "IMG_8509.webp",
-    "description": "C'est la plus belle camisole que j'ai dans ma garde-robe. Elle est légère, délicate et très féminine. Je devrais la mettre plus souvent."
+    "description": "C'est la plus belle camisole que j'ai dans ma garde-robe. Elle est légère, délicate et très féminine. Je devrais la mettre plus souvent.",
+    "category": "tops"
   },
   {
     "id": "IMG_8510.webp",
-    "description": "This pair of pants fits amazing, not too long but wide enough. Because of those i discovered that the pants in the workwear section are a lot cheaper than the pants section at value village"
+    "description": "This pair of pants fits amazing, not too long but wide enough. Because of those i discovered that the pants in the workwear section are a lot cheaper than the pants section at value village",
+    "category": "bottoms"
   },
   {
     "id": "IMG_8511.webp",
-    "description": "Got this hoodie my first year of uni, its now pretty beat up but i intend on making myself an identical one once its no longer wearable."
+    "description": "Got this hoodie my first year of uni, its now pretty beat up but i intend on making myself an identical one once its no longer wearable.",
+    "category": "tops"
   },
   {
     "id": "IMG_8512.webp",
-    "description": "By far my favorite pair of shorts. Heavy fabric, yet they feel flowy. I wear them around the house in the winter or anytime in the summer."
+    "description": "By far my favorite pair of shorts. Heavy fabric, yet they feel flowy. I wear them around the house in the winter or anytime in the summer.",
+    "category": "bottoms"
   },
   {
     "id": "IMG_8513.webp",
-    "description": "Got those shoes at the start of the school year, I love the fact that i can wear them with pretty much any pair of pants."
+    "description": "Got those shoes at the start of the school year, I love the fact that i can wear them with pretty much any pair of pants.",
+    "category": "footwear"
   },
   {
     "id": "inbound5790946303057490837.webp",
-    "description": "Hoodie acheté dans un magasin quelconque il y a plusieurs annéées. Utilisé principalement pour prendre l'avion et voyager."
+    "description": "Hoodie acheté dans un magasin quelconque il y a plusieurs annéées. Utilisé principalement pour prendre l'avion et voyager.",
+    "category": "tops"
   },
   {
     "id": "inbound8246622716665199741.webp",
-    "description": "Chemise qui m'intriguait. J'ai décidé de l'acheter et c'est maintenant une de mes pièces de vêtements préférées."
+    "description": "Chemise qui m'intriguait. J'ai décidé de l'acheter et c'est maintenant une de mes pièces de vêtements préférées.",
+    "category": "tops"
   },
   {
     "id": "inbound9217051186544952343.webp",
-    "description": "Chemise portée pendant des journées d'été chaudes. Mise pour la première fois lors d'un voyage à Riviera Maya."
+    "description": "Chemise portée pendant des journées d'été chaudes. Mise pour la première fois lors d'un voyage à Riviera Maya.",
+    "category": "tops"
   },
   {
     "id": "jeans.webp",
-    "description": "I love the fit on these, I should probably buy another pair. It would be my fourth pair of the same jeans. "
+    "description": "I love the fit on these, I should probably buy another pair. It would be my fourth pair of the same jeans.",
+    "category": "bottoms"
   },
   {
     "id": "jeans_pants.webp",
-    "description": "My first designer piece purchased new in-store. The denim softens with every wear, and I can already tell these pants are going to become incredibly comfortable and my go-to pair."
+    "description": "My first designer piece purchased new in-store. The denim softens with every wear, and I can already tell these pants are going to become incredibly comfortable and my go-to pair.",
+    "category": "bottoms"
   },
   {
     "id": "JWA_HOODIES.webp",
-    "description": "I bought it second-hand and had it shipped from Toronto for my partner for Christmas 2024 but I ended up wearing it far more than he did. Turns out it was unconsciously a gift to myself. Oops."
+    "description": "I bought it second-hand and had it shipped from Toronto for my partner for Christmas 2024 but I ended up wearing it far more than he did. Turns out it was unconsciously a gift to myself. Oops.",
+    "category": "tops"
   },
   {
     "id": "LUNETTES.webp",
-    "description": "Found these on the street, complete with a back strap for outdoor use. They ended up becoming my signature sunglasses with the strap. The strap is a pleasure to use in almost every day-to-day situation."
+    "description": "Found these on the street, complete with a back strap for outdoor use. They ended up becoming my signature sunglasses with the strap. The strap is a pleasure to use in almost every day-to-day situation.",
+    "category": "accessories"
   },
   {
     "id": "MUJI LONG SLEEVE.webp",
-    "description": "Bought this one in Tokyo at a Muji store. I loved the UNIQLO one so much that I wanted a second version, this one is more minimal, and the fabric feels much more refined and stylish."
+    "description": "Bought this one in Tokyo at a Muji store. I loved the UNIQLO one so much that I wanted a second version, this one is more minimal, and the fabric feels much more refined and stylish.",
+    "category": "tops"
   },
   {
     "id": "oursons.webp",
-    "description": "I thrifted this shirt. I wore it for my MA thesis defense. Now it has a sizeable orange stain on the back so I rarely wear it. I tried everything to get rid of the stain, but it won't budge.  "
+    "description": "I thrifted this shirt. I wore it for my MA thesis defense. Now it has a sizeable orange stain on the back so I rarely wear it. I tried everything to get rid of the stain, but it won't budge.",
+    "category": "tops"
   },
   {
     "id": "Pants (Beige).webp",
-    "description": "One of two pants I bought online. I now realised how lucky I was, because they fit perfectly, and I really have a hard time finding pants in local stores."
+    "description": "One of two pants I bought online. I now realised how lucky I was, because they fit perfectly, and I really have a hard time finding pants in local stores.",
+    "category": "bottoms"
   },
   {
     "id": "Pants (Black).webp",
-    "description": "One of two pants I bought online. I now realised how lucky I was, because they fit perfectly, and I really have a hard time finding pants in local stores."
+    "description": "One of two pants I bought online. I now realised how lucky I was, because they fit perfectly, and I really have a hard time finding pants in local stores.",
+    "category": "bottoms"
   },
   {
     "id": "pants.webp",
-    "description": "most practical pants. wear it any time"
+    "description": "most practical pants. wear it any time",
+    "category": "bottoms"
   },
   {
     "id": "PEARL_NECKLACE.webp",
-    "description": "Given to me by my grandmother, who wore it at my age. So beautiful and precious that I only wear it once or twice a year — I’m too afraid of losing it."
+    "description": "Given to me by my grandmother, who wore it at my age. So beautiful and precious that I only wear it once or twice a year — I’m too afraid of losing it.",
+    "category": "accessories"
   },
   {
     "id": "PLAID_CARDIGAN.webp",
-    "description": "A cardigan I’ve had for years and never get tired of. This kind of plaid never goes out of style."
+    "description": "A cardigan I’ve had for years and never get tired of. This kind of plaid never goes out of style.",
+    "category": "tops"
   },
   {
     "id": "shirt.webp",
-    "description": "Got as a present from mother in law"
+    "description": "Got as a present from mother in law",
+    "category": "tops"
   },
   {
     "id": "Sports Jacket (Blue).webp",
-    "description": "After a game, Coach asked who was the best player from that game. My teammates chose me. It was appreciated because I really wanted to have a great and fun season with those guys, on and off the pitch."
+    "description": "After a game, Coach asked who was the best player from that game. My teammates chose me. It was appreciated because I really wanted to have a great and fun season with those guys, on and off the pitch.",
+    "category": "tops"
   },
   {
-    "id": "Sports Jacket (White:Green).webp",
-    "description": "After a game, Coach asked who was the best player from that game. My teammates chose me. It was appreciated because I really wanted to have a great and fun season with those guys, on and off the pitch."
+    "id": "Sports Jacket (WhiteGreen).webp",
+    "description": "After a game, Coach asked who was the best player from that game. My teammates chose me. It was appreciated because I really wanted to have a great and fun season with those guys, on and off the pitch.",
+    "category": "tops"
   },
   {
     "id": "STRIPED LONG SLEEVE.webp",
-    "description": "Bought this one first at UNIQLO, the fabric is incredibly soft. I wear it both as pajamas and as an everyday casual long-sleeve."
+    "description": "Bought this one first at UNIQLO, the fabric is incredibly soft. I wear it both as pajamas and as an everyday casual long-sleeve.",
+    "category": "tops"
   },
   {
     "id": "Sweater (Nike).webp",
-    "description": "Sweater that my mother kindly bought me back when I was in high school. I feel like I will not throw it away unless it is completely completely torn apart."
+    "description": "Sweater that my mother kindly bought me back when I was in high school. I feel like I will not throw it away unless it is completely completely torn apart.",
+    "category": "tops"
   },
   {
     "id": "sweater.webp",
-    "description": "Comfy sweater and represent best icecream brand."
+    "description": "Comfy sweater and represent best icecream brand.",
+    "category": "tops"
   },
   {
     "id": "Toque (NHL).webp",
-    "description": "Toque my younger brother bought me for Christmas. It is a toque from my favorite NHL team when I was younger. The toque itself isn't really my style, but I do really appreciate the gesture; to me, my brother is a really generous person."
+    "description": "Toque my younger brother bought me for Christmas. It is a toque from my favorite NHL team when I was younger. The toque itself isn't really my style, but I do really appreciate the gesture; to me, my brother is a really generous person.",
+    "category": "accessories"
   },
   {
     "id": "tricot.webp",
-    "description": "This is the second sweater and third piece of garment I knit in the last year. I thought it would be too small, but it fits just right. It is maybe a bit short, but I don't mind a cropped sweater."
+    "description": "This is the second sweater and third piece of garment I knit in the last year. I thought it would be too small, but it fits just right. It is maybe a bit short, but I don't mind a cropped sweater.",
+    "category": "tops"
   },
   {
     "id": "WHITE_BROOCH.webp",
-    "description": "Oh, this brooch! Even the most boring shirt becomes more fun with a little bit of whimsy."
+    "description": "Oh, this brooch! Even the most boring shirt becomes more fun with a little bit of whimsy.",
+    "category": "accessories"
   },
   {
     "id": "windbreaker.webp",
-    "description": "I think this is my best thrift find ever. "
+    "description": "I think this is my best thrift find ever.",
+    "category": "tops"
   },
   {
     "id": "WOOL_COAT.webp",
-    "description": "I can finally feel put-together in the winter. Even better? This coat was only 14$."
+    "description": "I can finally feel put-together in the winter. Even better? This coat was only 14$.",
+    "category": "tops"
   }
 ]

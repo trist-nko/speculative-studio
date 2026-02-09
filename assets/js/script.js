@@ -27,3 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
   }
 });
+
+const writingTest = document.getElementById("writing-test");
+
+function alertPopup

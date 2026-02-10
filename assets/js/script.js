@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Check if we are on the catalog page
   const catalogBody = document.getElementById("catalog-body");
   if (catalogBody) {
-    fetch("../assets/catalog.json")
+    fetch("../catalog.json")
       .then((response) => response.json())
       .then((data) => {
         data.forEach((item) => {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             item.name || item.id.split(".")[0].replace(/[-_]/g, " ");
 
           row.innerHTML = `
-            <td><img src="../assets/images/catalog-img/${item.id}" alt="${itemName}"></td>
+            <td><img src="../images/catalog-img/${item.id}" alt="${itemName}"></td>
             <td>${itemName}</td>
             <td class="desc">${item.description}</td>
           `;
@@ -28,7 +28,3 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   }
 });
-
-const writingTest = document.getElementById("writing-test");
-
-writingTest.addEventListener("click", () => alert("You clicked the button"));

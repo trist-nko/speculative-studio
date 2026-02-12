@@ -44,10 +44,31 @@
           <div class="avatar-box"></div>
           <div class="clothes">
             <p>SELECT_CATEGORY</p>
-            <button class="btn">> TOPS</button>
-            <button class="btn">> BOTTOMS</button>
-            <button class="btn">> FOOTWEAR</button>
-            <button class="btn">> ACCESSORIES</button>
+            <div class="dropdown-container">
+              <button class="btn category-btn" id="toggle-tops">> TOPS</button>
+              <div class="dropdown-menu" id="menu-tops"></div>
+            </div>
+
+            <div class="dropdown-container">
+              <button class="btn category-btn" id="toggle-bottoms">
+                > BOTTOMS
+              </button>
+              <div class="dropdown-menu" id="menu-bottoms"></div>
+            </div>
+
+            <div class="dropdown-container">
+              <button class="btn category-btn" id="toggle-footwear">
+                > FOOTWEAR
+              </button>
+              <div class="dropdown-menu" id="menu-footwear"></div>
+            </div>
+
+            <div class="dropdown-container">
+              <button class="btn category-btn" id="toggle-accessories">
+                > ACCESSORIES
+              </button>
+              <div class="dropdown-menu" id="menu-accessories"></div>
+            </div>
           </div>
         </div>
       </div>

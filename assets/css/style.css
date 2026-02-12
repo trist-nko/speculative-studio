@@ -158,3 +158,63 @@ button a {
 .about-container strong {
   font-weight: 600;
 }
+
+/* Dropdown specific styles */
+.dropdown-container {
+  position: relative;
+  display: inline-block; /* Or block, depending on desired layout */
+  width: 100%; /* Ensure it takes full width if desired */
+  margin-bottom: 8px; /* Spacing between dropdowns */
+}
+
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  background-color: var(--window-background-color);
+  min-width: 100%; /* Or a fixed width */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 2px solid var(--border-color);
+  max-height: 200px; /* Limit height for scrollability */
+  overflow-y: auto; /* Enable scrolling */
+}
+
+.dropdown-menu.show {
+  display: block; /* Show when 'show' class is added by JS */
+}
+
+.dropdown-item {
+  color: var(--text-main-color);
+  padding: 8px 16px;
+  text-decoration: none;
+  display: flex; /* To align image and text */
+  align-items: center; /* Vertically align items */
+  border-bottom: 1px solid var(--border-color); /* Separator */
+  cursor: pointer;
+  font-family: var(--long-text-font);
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.dropdown-item:last-child {
+  border-bottom: none; /* No border on the last item */
+}
+
+.dropdown-item:hover {
+  background-color: var(--bg-color); /* Highlight on hover */
+  color: var(--text-alt-color);
+}
+
+.dropdown-item img {
+  width: 50px; /* Thumbnail size */
+  height: 50px; /* Maintain aspect ratio, could be 'auto' if images vary */
+  margin-right: 10px; /* Space between image and text */
+  border: 1px solid var(--text-alt-color);
+  object-fit: cover; /* Cover the area, cropping if necessary */
+}
+
+.category-btn {
+  /* Styles for the category buttons, inheriting from .btn */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

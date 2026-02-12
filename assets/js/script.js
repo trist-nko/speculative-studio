@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Check if we are on the catalog page
   const catalogBody = document.getElementById("catalog-body");
   if (catalogBody) {
-    fetch("../catalog.json")
+    fetch("../assets/catalog.json")
       .then((response) => response.json())
       .then((data) => {
         data.forEach((item) => {
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             item.name || item.id.split(".")[0].replace(/[-_]/g, " ");
 
           row.innerHTML = `
-            <td><img src="../images/catalog-img/${item.id}" alt="${itemName}"></td>
+            <td><img src="../assets/images/catalog-img/${item.id}" alt="${itemName}" onerror="this.onerror=null;this.src='';this.alt='Image Not Found'; this.style.width='50px'; this.style.height='50px';"></td>
             <td>${itemName}</td>
             <td class="desc">${item.description}</td>
           `;

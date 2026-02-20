@@ -109,7 +109,8 @@ const toggleDropdown = (event) => {
     menu.querySelectorAll("img[data-src]").forEach((img) => {
       // Only load if the src is still the placeholder or empty
       if (
-        img.src === "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" ||
+        img.src ===
+          "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" ||
         img.src === ""
       ) {
         img.src = img.dataset.src; // Set the actual image source from data-src
@@ -164,7 +165,8 @@ document.addEventListener("DOMContentLoaded", async () => {
 
       data.forEach((item) => {
         const row = document.createElement("tr");
-        const itemName = item.name || item.id.split(".")[0].replace(/[-_]/g, " ");
+        const itemName =
+          item.name || item.id.split(".")[0].replace(/[-_]/g, " ");
 
         row.innerHTML = `
           <td><img src="../assets/images/catalog-img/${item.id}" alt="${itemName}" onerror="this.onerror=null;this.src='';this.alt='Image Not Found'; this.style.width='50px'; this.style.height='50px';"></td>
@@ -181,8 +183,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     try {
       // Fetch the catalog data from the JSON file
       const response = await fetch("assets/catalog.json");
+      if (!response.ok) {
+        console.error(
+          "Error fetching catalog.json for index.html. Status:",
+          response.status,
+        );
+      }
       allCatalogItems = await response.json(); // Store the fetched data globally
-      console.log("Catalog loaded:", allCatalogItems);
 
       /**
        * Renders all category dropdowns by filtering the global catalog items.

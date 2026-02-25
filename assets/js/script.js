@@ -17,11 +17,17 @@ const userStyle = {
  */
 const updateAvatarBox = () => {
   const avatarBox = document.querySelector(".avatar-box");
+  const clothingLayers = document.getElementById("clothing-layers");
+
   if (!avatarBox) {
     console.error("Avatar box element not found.");
     return;
   }
-  avatarBox.innerHTML = ""; // Clear any previously displayed items
+  if (!clothingLayers) {
+    console.error("Clothing layers element not found.");
+    return;
+  }
+  clothingLayers.innerHTML = ""; // Clear any previously displayed items
 
   // Iterate over each category in the userStyle object
   for (const category in userStyle) {
@@ -53,7 +59,7 @@ const updateAvatarBox = () => {
         this.style.height = "50px";
         this.style.border = "1px solid red"; // Visual cue for broken image
       };
-      avatarBox.appendChild(imgElement);
+      clothingLayers.appendChild(imgElement);
     }
   }
 };

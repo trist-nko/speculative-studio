@@ -72,6 +72,15 @@ button a {
   flex-wrap: wrap;
 }
 
+.avatar-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers children horizontally */
+  width: 45vw; /* Moved from .avatar-box */
+  flex-shrink: 0; /* Inherit from .avatar-box, so it doesn't shrink */
+  margin-left: 8px; /* Apply margin to the container instead */
+}
+
 .avatar-box {
   border: 2px dashed var(--text-alt-color);
   height: 55vh;
@@ -241,4 +250,16 @@ button a {
   /* Styles for the category buttons, inheriting from .btn */
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.undo-btn {
+  display: block;
+  margin: 8px auto 0 auto;
+  padding: 8px;
+  background-color: var(--bg-color);
+  border: 3px solid var(--text-main-color);
+  color: var(--text-alt-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
 }

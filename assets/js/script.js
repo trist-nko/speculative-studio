@@ -10,6 +10,8 @@ const userStyle = {
   accessories: "",
 };
 
+const styleHistory = [];
+
 /**
  * Updates the visual display in the 'avatar-box' based on the items selected in `userStyle`.
  * It clears previous selections and then adds images for each chosen item, layering them.
@@ -72,6 +74,7 @@ const updateAvatarBox = () => {
  */
 const selectItem = (item) => {
   if (item && item.category) {
+    styleHistory.push({ ...userStyle });
     userStyle[item.category] = item; // Update the userStyle object with the new item
     updateAvatarBox(); // Refresh the avatar display to show the newly selected item
     // Close all open dropdown menus to maintain a clean interface
@@ -79,6 +82,15 @@ const selectItem = (item) => {
       .querySelectorAll(".dropdown-menu")
       .forEach((menu) => menu.classList.remove("show"));
   }
+};
+
+const undoLastChange = () => {
+  if (styleHistory.length === 0) {
+    return;
+  }
+  const lastStyle = styleHistory.pop();
+  Object.assign(userStyle, lastStyle);
+  updateAvatarBox();
 };
 
 /**
@@ -245,6 +257,10 @@ document.addEventListener("DOMContentLoaded", async () => {
             });
           }
         });
+
+        document
+          .getElementById("undo-btn")
+          .addEventListener("click", undoLastChange);
       };
 
       // Initial calls to set up the UI after data is loaded

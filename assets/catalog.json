@@ -32,7 +32,8 @@
   {
     "id": "CROCHET_HAT.png",
     "description": "This hat started my crochet addiction. Since then, I can’t stop buying different crochet pieces.",
-    "category": "accessories"
+    "category": "accessories",
+    "location": "head"
   },
   {
     "id": "DRIES_JACKET.png",
@@ -47,7 +48,8 @@
   {
     "id": "image.png",
     "description": "Foulard cadeau de mon ami ayant était en stage au Maroc et ayant visité un peu a penser à moi en voyant les couleurs et lorsqu'on lui a parlé des Amazigh!",
-    "category": "accessories"
+    "category": "accessories",
+    "location": "chest"
   },
   {
     "id": "IMG_0556.webp",
@@ -67,7 +69,8 @@
   {
     "id": "IMG_0559.webp",
     "description": "Tote bag I did myself. The tissue is from an old crewneck of mine",
-    "category": "accessories"
+    "category": "accessories",
+    "location": "hand"
   },
   {
     "id": "IMG_2178 (pants).webp",
@@ -107,7 +110,8 @@
   {
     "id": "IMG_6585.webp",
     "description": "Best sunglasses for speed",
-    "category": "accessories"
+    "category": "accessories",
+    "location": "eyes"
   },
   {
     "id": "IMG_6587.webp",
@@ -157,7 +161,8 @@
   {
     "id": "IMG_8508.webp",
     "description": "De loin mon accessoire favoris du moment. Il est très versatille et il ajoute une touche intéressante à tous mes outfits.",
-    "category": "accessories"
+    "category": "accessories",
+    "location": "mouth"
   },
   {
     "id": "IMG_8509.webp",
@@ -217,7 +222,8 @@
   {
     "id": "LUNETTES.webp",
     "description": "Found these on the street, complete with a back strap for outdoor use. They ended up becoming my signature sunglasses with the strap. The strap is a pleasure to use in almost every day-to-day situation.",
-    "category": "accessories"
+    "category": "accessories",
+    "location": "eyes"
   },
   {
     "id": "MUJI LONG SLEEVE.webp",
@@ -247,7 +253,8 @@
   {
     "id": "PEARL_NECKLACE.webp",
     "description": "Given to me by my grandmother, who wore it at my age. So beautiful and precious that I only wear it once or twice a year — I’m too afraid of losing it.",
-    "category": "accessories"
+    "category": "accessories",
+    "location": "neck"
   },
   {
     "id": "PLAID_CARDIGAN.webp",
@@ -287,7 +294,8 @@
   {
     "id": "Toque (NHL).webp",
     "description": "Toque my younger brother bought me for Christmas. It is a toque from my favorite NHL team when I was younger. The toque itself isn't really my style, but I do really appreciate the gesture; to me, my brother is a really generous person.",
-    "category": "accessories"
+    "category": "accessories",
+    "location": "head"
   },
   {
     "id": "tricot.webp",
@@ -297,7 +305,8 @@
   {
     "id": "WHITE_BROOCH.webp",
     "description": "Oh, this brooch! Even the most boring shirt becomes more fun with a little bit of whimsy.",
-    "category": "accessories"
+    "category": "accessories",
+    "location": "chest"
   },
   {
     "id": "windbreaker.webp",

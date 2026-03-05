@@ -4,10 +4,24 @@ let allCatalogItems = [];
 // Global object to manage the user's current selections for each clothing category.
 // This object holds the selected item for 'top', 'bottom', 'footwear', and 'accessories'.
 const userStyle = {
-  top: "",
-  bottom: "",
+  tops: "",
+  bottoms: "",
   footwear: "",
   accessories: "",
+};
+
+const bodyZones = {
+  tops: { top: "18%", left: "10%", width: "80%", height: "37%" },
+  bottoms: { top: "52%", left: "15%", width: "70%", height: "33%" },
+  footwear: { top: "82%", left: "20%", width: "60%", height: "18%" },
+
+  // Location-based zones (for accessories only)
+  head: { top: "1%", left: "28%", width: "44%", height: "16%" },
+  eyes: { top: "6%", left: "28%", width: "44%", height: "8%" },
+  mouth: { top: "11%", left: "32%", width: "36%", height: "7%" },
+  neck: { top: "15%", left: "25%", width: "50%", height: "8%" },
+  chest: { top: "22%", left: "25%", width: "50%", height: "16%" },
+  hand: { top: "50%", left: "68%", width: "28%", height: "28%" },
 };
 
 const styleHistory = [];
@@ -43,14 +57,30 @@ const updateAvatarBox = () => {
       imgElement.src = `assets/images/catalog-img/${item.id}`; // Set image source
       imgElement.alt = `Selected ${itemName}`; // Set alt text for accessibility
 
-      // Apply styling for positioning and sizing the image within the avatar box
-      // These styles allow layering of clothing items
-      imgElement.style.width = "100px"; // Example styling, can be adjusted via CSS
-      imgElement.style.height = "100px";
-      imgElement.style.position = "absolute"; // Position absolute to layer items
-      imgElement.style.left = "50%"; // Center horizontally
-      imgElement.style.top = "50%"; // Center vertically
-      imgElement.style.transform = "translate(-50%, -50%)"; // Adjust for true centering
+      const zoneKey =
+        item.category === "accessories" && item.location
+          ? item.location
+          : item.category;
+
+      const zone = bodyZones[zoneKey];
+
+      if (zone) {
+        imgElement.style.position = "absolute";
+        imgElement.style.top = zone.top;
+        imgElement.style.left = zone.left;
+        imgElement.style.width = zone.width;
+        imgElement.style.height = zone.height;
+        imgElement.style.objectFit = "contain";
+      } else {
+        // Fallback: if a zone key is somehow missing, center the image
+        imgElement.style.position = "absolute";
+        imgElement.style.top = "10%";
+        imgElement.style.left = "10%";
+        imgElement.style.width = "80%";
+        imgElement.style.height = "80%";
+        imgElement.style.objectFit = "contain";
+        console.warn(`No zone found for key: "${zoneKey}"`);
+      }
 
       // Error handling for images that fail to load
       imgElement.onerror = function () {

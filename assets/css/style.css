@@ -111,9 +111,6 @@ button a {
   top: 0;
   left: 0;
   z-index: 2; /* Layer on top of avatar */
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .clothes {

@@ -10,18 +10,62 @@ const userStyle = {
   accessories: "",
 };
 
-const bodyZones = {
-  tops: { top: "18%", left: "10%", width: "80%", height: "37%" },
-  bottoms: { top: "52%", left: "15%", width: "70%", height: "33%" },
-  footwear: { top: "82%", left: "20%", width: "60%", height: "18%" },
+const avatarOptions = [
+  {
+    id: "young",
+    src: "assets/avatar/avatar-young.webp",
+    zones: {
+      tops: { top: "18%", left: "10%", width: "80%", height: "37%" },
+      bottoms: { top: "52%", left: "15%", width: "70%", height: "33%" },
+      footwear: { top: "82%", left: "20%", width: "60%", height: "18%" },
+      head: { top: "1%", left: "28%", width: "44%", height: "16%" },
+      eyes: { top: "6%", left: "28%", width: "44%", height: "8%" },
+      mouth: { top: "11%", left: "32%", width: "36%", height: "7%" },
+      neck: { top: "15%", left: "25%", width: "50%", height: "8%" },
+      chest: { top: "22%", left: "25%", width: "50%", height: "16%" },
+      hand: { top: "50%", left: "68%", width: "28%", height: "28%" },
+    },
+  },
+  {
+    id: "mid",
+    src: "assets/avatar/avatar-mid.webp",
+    zones: {
+      tops: { top: "18%", left: "10%", width: "80%", height: "37%" },
+      bottoms: { top: "52%", left: "15%", width: "70%", height: "33%" },
+      footwear: { top: "82%", left: "20%", width: "60%", height: "18%" },
+      head: { top: "1%", left: "28%", width: "44%", height: "16%" },
+      eyes: { top: "6%", left: "28%", width: "44%", height: "8%" },
+      mouth: { top: "11%", left: "32%", width: "36%", height: "7%" },
+      neck: { top: "15%", left: "25%", width: "50%", height: "8%" },
+      chest: { top: "22%", left: "25%", width: "50%", height: "16%" },
+      hand: { top: "50%", left: "68%", width: "28%", height: "28%" },
+    },
+  },
+  {
+    id: "old",
+    src: "assets/avatar/avatar-old.webp",
+    zones: {
+      tops: { top: "18%", left: "10%", width: "80%", height: "37%" },
+      bottoms: { top: "52%", left: "15%", width: "70%", height: "33%" },
+      footwear: { top: "82%", left: "20%", width: "60%", height: "18%" },
+      head: { top: "1%", left: "28%", width: "44%", height: "16%" },
+      eyes: { top: "6%", left: "28%", width: "44%", height: "8%" },
+      mouth: { top: "11%", left: "32%", width: "36%", height: "7%" },
+      neck: { top: "15%", left: "25%", width: "50%", height: "8%" },
+      chest: { top: "22%", left: "25%", width: "50%", height: "16%" },
+      hand: { top: "50%", left: "68%", width: "28%", height: "28%" },
+    },
+  },
+];
 
-  // Location-based zones (for accessories only)
-  head: { top: "1%", left: "28%", width: "44%", height: "16%" },
-  eyes: { top: "6%", left: "28%", width: "44%", height: "8%" },
-  mouth: { top: "11%", left: "32%", width: "36%", height: "7%" },
-  neck: { top: "15%", left: "25%", width: "50%", height: "8%" },
-  chest: { top: "22%", left: "25%", width: "50%", height: "16%" },
-  hand: { top: "50%", left: "68%", width: "28%", height: "28%" },
+let activeAvatar = null;
+
+const loadRandomAvatar = () => {
+  const randomIndex = Math.floor(Math.random() * avatarOptions.length);
+  activeAvatar = avatarOptions[randomIndex];
+
+  const avatarImg = document.getElementById("avatar");
+  avatarImg.src = activeAvatar.src;
 };
 
 const styleHistory = [];
@@ -62,7 +106,7 @@ const updateAvatarBox = () => {
           ? item.location
           : item.category;
 
-      const zone = bodyZones[zoneKey];
+      const zone = activeAvatar.zones[zoneKey];
 
       if (zone) {
         imgElement.style.position = "absolute";
@@ -294,6 +338,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       };
 
       // Initial calls to set up the UI after data is loaded
+      loadRandomAvatar();
       renderAllDropdowns(); // Populate all dropdown menus
       setupEventListeners(); // Attach all event handlers
       updateAvatarBox(); // Initialize the avatar display (e.g., with empty state)

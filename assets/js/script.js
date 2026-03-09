@@ -1,6 +1,8 @@
 // Global variable to store all catalog items once fetched from catalog.json
 let allCatalogItems = [];
 
+const GEMINI_API_KEY = "AIzaSyCpdozD6Con-3qxHBWLYlSq-vIOGv9l0xc";
+
 // Global object to manage the user's current selections for each clothing category.
 // This object holds the selected item for 'top', 'bottom', 'footwear', and 'accessories'.
 const userStyle = {

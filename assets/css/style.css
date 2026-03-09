@@ -260,3 +260,14 @@ button a {
   font-weight: 500;
   cursor: pointer;
 }
+
+.speculate-btn {
+  display: block;
+  margin: 8px auto 0 auto;
+  padding: 8px;
+}
+
+.speculate-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}

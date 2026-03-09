@@ -152,6 +152,7 @@ const selectItem = (item) => {
     userStyle[item.category] = item; // Update the userStyle object with the new item
     updateAvatarBox(); // Refresh the avatar display to show the newly selected item
     // Close all open dropdown menus to maintain a clean interface
+    updateSpeculateButton();
     document
       .querySelectorAll(".dropdown-menu")
       .forEach((menu) => menu.classList.remove("show"));
@@ -165,6 +166,48 @@ const undoLastChange = () => {
   const lastStyle = styleHistory.pop();
   Object.assign(userStyle, lastStyle);
   updateAvatarBox();
+  updateSpeculateButton();
+};
+
+const countSelectedItems = () => {
+  return Object.values(userStyle).filter((item) => item !== "").length;
+};
+
+const updateSpeculateButton = () => {
+  const btn = document.getElementById("speculate-btn");
+  if (!btn) return;
+  btn.disabled = countSelectedItems() < 3;
+};
+
+const generateSpeculations = async () => {
+  const btn = document.getElementById("speculate-btn");
+  const output = document.querySelector(".vignette-text");
+
+  const descriptions = Object.values(userStyle)
+    .filter((item) => item !== "")
+    .map((item) => item.description);
+
+  btn.textContent = "> GENERATING...";
+  btn.disabled = true;
+  output.textContent = "...";
+
+  try {
+    const response = await fetch("/api/speculate", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ descriptions }),
+    });
+
+    const data = await response.json();
+    output.textContent = data.result || "Something went wrong. Try again.";
+  } catch (error) {
+    console.error("Server error:", error);
+    output.textContent =
+      "Could not generate speculations. Check your connection.";
+  } finally {
+    btn.textContent = "> GENERATE SPECULATIONS";
+    btn.disabled = countSelectedItems() < 3;
+  }
 };
 
 /**

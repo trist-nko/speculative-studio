@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "This is a website project for my final Comprehensive Exam of my PhD.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -13,13 +15,13 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/trist-nko/speculative-studio/issues"
   },
   "homepage": "https://github.com/trist-nko/speculative-studio#readme",
   "dependencies": {
     "dotenv": "^17.3.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
   }
 }

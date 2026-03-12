@@ -380,6 +380,9 @@ document.addEventListener("DOMContentLoaded", async () => {
           .addEventListener("click", undoLastChange);
       };
 
+      document
+        .getElementById("speculate-btn")
+        .addEventListener("click", generateSpeculations);
       // Initial calls to set up the UI after data is loaded
       loadRandomAvatar();
       renderAllDropdowns(); // Populate all dropdown menus

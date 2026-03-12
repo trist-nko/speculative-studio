@@ -45,6 +45,7 @@ Do not list the items. Write it as a single flowing paragraph. Do not be corny.`
     );
 
     const data = await geminiRes.json();
+    console.log("Gemini response:", JSON.stringify(data, null, 2));
     const text = data.candidates?.[0]?.content?.parts?.[0]?.text;
 
     if (!text)

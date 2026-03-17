@@ -7,6 +7,7 @@
   --border-color: #b8b8b8;
 
   /* Font Families */
+  --title-font: "Clash Display", sans-serif;
   --header-font: "IBM Plex Mono";
   --long-text-font: "IBM Plex Sans";
 }
@@ -14,7 +15,8 @@
 body {
   background-color: var(--bg-color);
   color: var(--text-main-color);
-  font-family: var(--header-font);
+  font-family: var(--title-font);
+  font-weight: 500;
   font-size: 1.2rem;
   margin: 20px;
 }
@@ -36,7 +38,7 @@ h1 {
 button {
   background-color: var(--bg-color);
   border: 3px solid var(--text-main-color);
-  font: var(--header-font);
+  font-family: var(--title-font);
   font-size: 0.9rem;
   font-weight: 500;
   color: var(--text-alt-color);
@@ -175,8 +177,8 @@ button a {
 }
 
 .catalog-table .desc {
-  font-family: var(--header-font);
-  font-weight: 300;
+  font-family: var(--title-font);
+  font-weight: 500;
   font-size: 1rem;
 }
 

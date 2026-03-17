@@ -1,10 +1,10 @@
 :root {
   /* Main Colors */
-  --bg-color: aliceblue;
-  --window-background-color: #fff;
+  --bg-color: #edeae4;
+  --window-background-color: #f9f7f3;
   --text-main-color: #121212;
-  --text-alt-color: #d77a00;
-  --border-color: #b8b8b8;
+  --text-alt-color: #4a7a9b;
+  --border-color: #cfc9bd;
 
   /* Font Families */
   --title-font: "Clash Display", sans-serif;
@@ -32,7 +32,8 @@ header {
 h1 {
   margin: 0;
   padding: 8px;
-  text-shadow: 2px 2px 0px var(--text-alt-color);
+  word-spacing: 0.3em;
+  color: var(--text-alt-color);
 }
 
 button {
@@ -51,7 +52,7 @@ button a {
 }
 
 .main-window {
-  font-weight: 800;
+  font-weight: 500;
   background-color: var(--window-background-color);
   padding: 8px;
   margin-top: 16px;

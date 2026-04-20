@@ -58,6 +58,11 @@ const avatarOptions = [
   },
 ];
 
+const itemOverrides = {
+  "2.webp": { top: "20.5%", left: "10%", width: "80%", height: "30%" },
+  "3.webp": { top: "0%", left: "12%", width: "75%", height: "95%" },
+};
+
 let activeAvatar = null;
 
 const loadRandomAvatar = () => {
@@ -106,7 +111,7 @@ const updateAvatarBox = () => {
           ? item.location
           : item.category;
 
-      const zone = activeAvatar.zones[zoneKey];
+      const zone = itemOverrides[item.id] || activeAvatar.zones[zoneKey];
 
       if (zone) {
         imgElement.style.position = "absolute";

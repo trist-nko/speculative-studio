@@ -61,6 +61,26 @@ const avatarOptions = [
 const itemOverrides = {
   "2.webp": { top: "20.5%", left: "10%", width: "80%", height: "30%" },
   "3.webp": { top: "0%", left: "12%", width: "75%", height: "95%" },
+  "Camisole (SC30).webp": {
+    top: "14%",
+    left: "10%",
+    width: "80%",
+    height: "38%",
+  },
+  "cardigan.webp": {
+    position: "absolute",
+    top: "-35%",
+    left: "8%",
+    width: "90%",
+    height: "170%",
+  },
+  "DRIES_JACKET.webp": {
+    position: "absolute",
+    top: "29%",
+    left: "22%",
+    width: "50%",
+    height: "30%",
+  },
 };
 
 let activeAvatar = null;

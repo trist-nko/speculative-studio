@@ -335,8 +335,38 @@ const itemOverrides = {
   "IMG_6585.webp": {
     top: "4%",
     left: "27%",
-    width: "44",
+    width: "44%",
     height: "8%",
+  },
+  "IMG_8508.webp": {
+    top: "10%",
+    left: "32%",
+    width: "36%",
+    height: "7%",
+  },
+  "LUNETTES.webp": {
+    top: "5%",
+    left: "29%",
+    width: "44%",
+    height: "8%",
+  },
+  "PEARL_NECKLACE.webp": {
+    top: "15%",
+    left: "25%",
+    width: "50%",
+    height: "11%",
+  },
+  "Toque (NHL).webp": {
+    top: "-7%",
+    left: "28%",
+    width: "44%",
+    height: "16%",
+  },
+  "WHITE_BROOCH.webp": {
+    top: "22%",
+    left: "30%",
+    width: "50%",
+    height: "16%",
   },
 };
 

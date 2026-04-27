@@ -26,14 +26,12 @@ app.post("/api/speculate", async (req, res) => {
       .json({ error: "At least 3 descriptions are required." });
   }
 
-  const prompt = `You are a quiet observer reading someone through the objects they've chosen to carry on their body.
+  const prompt = `Someone just walked past you. You noticed their outfit. You don't know why.
 
-Each item below comes with a memory its owner shared:
+They're wearing:
 ${descriptions.map((d) => `— ${d}`).join("\n")}
 
-From these fragments, write a single paragraph — three sentences, maybe four — speculating on who this person is. Let the memories bleed into each other. If one piece was thrifted and another was a gift, ask yourself what kind of person accumulates meaning that way. If something was found on the street and something else was bought in Tokyo, let that tension sit.
-
-Write short sentences. Let them breathe. Anchor your metaphors in the details they gave you — the fabric weight, the $14 price tag, the brother's generosity, the airport hoodie. Do not invent details that aren't there. Do not list garments. Do not use the word "juxtaposition." Do not narrate like a fashion magazine. Write like you're leaving a note about a stranger you'll never see again.`;
+Write a quick note — three sentences max — about the vibe they're giving off. Don't analyze. Don't explain. Just react, the way you would in your head before the thought disappears.`;
 
   try {
     const geminiRes = await fetch(

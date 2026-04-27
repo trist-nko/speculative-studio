@@ -75,11 +75,10 @@ const itemOverrides = {
     height: "170%",
   },
   "DRIES_JACKET.webp": {
-    position: "absolute",
-    top: "29%",
-    left: "22%",
-    width: "50%",
-    height: "30%",
+    top: "15%",
+    left: "12%",
+    width: "75%",
+    height: "50%",
   },
 };
 
@@ -100,6 +99,25 @@ const styleHistory = [];
  * It clears previous selections and then adds images for each chosen item, layering them.
  * Includes basic error handling for missing avatar box element and image loading.
  */
+const getAvatarRenderBounds = () => {
+  const avatarBox = document.querySelector(".avatar-box");
+  const avatarImg = document.getElementById("avatar");
+  const boxW = avatarBox.clientWidth;
+  const boxH = avatarBox.clientHeight;
+  if (!avatarImg.naturalWidth || !avatarImg.naturalHeight) {
+    return { left: 0, top: 0, width: boxW, height: boxH };
+  }
+  const imgRatio = avatarImg.naturalWidth / avatarImg.naturalHeight;
+  const boxRatio = boxW / boxH;
+  if (imgRatio > boxRatio) {
+    const h = boxW / imgRatio;
+    return { left: 0, top: (boxH - h) / 2, width: boxW, height: h };
+  } else {
+    const w = boxH * imgRatio;
+    return { left: (boxW - w) / 2, top: 0, width: w, height: boxH };
+  }
+};
+
 const updateAvatarBox = () => {
   const avatarBox = document.querySelector(".avatar-box");
   const clothingLayers = document.getElementById("clothing-layers");
@@ -112,7 +130,13 @@ const updateAvatarBox = () => {
     console.error("Clothing layers element not found.");
     return;
   }
-  clothingLayers.innerHTML = ""; // Clear any previously displayed items
+  clothingLayers.innerHTML = "";
+
+  const bounds = getAvatarRenderBounds();
+  clothingLayers.style.left = bounds.left + "px";
+  clothingLayers.style.top = bounds.top + "px";
+  clothingLayers.style.width = bounds.width + "px";
+  clothingLayers.style.height = bounds.height + "px";
 
   // Iterate over each category in the userStyle object
   for (const category in userStyle) {

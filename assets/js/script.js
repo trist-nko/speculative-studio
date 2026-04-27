@@ -59,8 +59,8 @@ const avatarOptions = [
 ];
 
 const itemOverrides = {
-  "2.webp": { top: "20.5%", left: "10%", width: "80%", height: "30%" },
-  "3.webp": { top: "0%", left: "12%", width: "75%", height: "95%" },
+  "2.webp": { top: "14%", left: "10%", width: "80%", height: "38%" },
+  "3.webp": { top: "0%", left: "12%", width: "75%", height: "70%" },
   "Camisole (SC30).webp": {
     top: "14%",
     left: "10%",
@@ -69,16 +69,22 @@ const itemOverrides = {
   },
   "cardigan.webp": {
     position: "absolute",
-    top: "-35%",
+    top: "-6%",
     left: "8%",
     width: "90%",
-    height: "170%",
+    height: "68%",
   },
   "DRIES_JACKET.webp": {
     top: "15%",
     left: "12%",
     width: "75%",
     height: "50%",
+  },
+  "FLORAL_VEST.webp": {
+    top: "2%",
+    left: "10%",
+    width: "80%",
+    height: "60%",
   },
 };
 
@@ -437,6 +443,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       renderAllDropdowns(); // Populate all dropdown menus
       setupEventListeners(); // Attach all event handlers
       updateAvatarBox(); // Initialize the avatar display (e.g., with empty state)
+      window.addEventListener("resize", updateAvatarBox);
     } catch (error) {
       console.error("Error loading the catalog for index.html:", error);
     }

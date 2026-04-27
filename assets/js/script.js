@@ -296,6 +296,48 @@ const itemOverrides = {
     width: "90%",
     height: "50%",
   },
+  "CREEPER BOOTS.webp": {
+    top: "68%",
+    left: "1%",
+    width: "100%",
+    height: "40%",
+  },
+  "IMG_6587.webp": {
+    top: "77%",
+    left: "1%",
+    width: "100%",
+    height: "23%",
+  },
+  "IMG_8513.webp": {
+    top: "79%",
+    left: "0%",
+    width: "100%",
+    height: "21%",
+  },
+  "CROCHET_HAT.webp": {
+    top: "-11%",
+    left: "27%",
+    width: "44%",
+    height: "30%",
+  },
+  "image.webp": {
+    top: "14%",
+    left: "0%",
+    width: "100%",
+    height: "40%",
+  },
+  "IMG_0559.webp": {
+    top: "35%",
+    left: "25%",
+    width: "100%",
+    height: "50%",
+  },
+  "IMG_6585.webp": {
+    top: "4%",
+    left: "27%",
+    width: "44",
+    height: "8%",
+  },
 };
 
 let activeAvatar = null;

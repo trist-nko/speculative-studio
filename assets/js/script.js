@@ -218,6 +218,84 @@ const itemOverrides = {
     width: "100%",
     height: "55%",
   },
+  "1.webp": {
+    top: "40%",
+    left: "1%",
+    width: "100%",
+    height: "50%",
+  },
+  "IMG_6582.webp": {
+    top: "40%",
+    left: "3%",
+    width: "100%",
+    height: "50%",
+  },
+  "IMG_6583.webp": {
+    top: "40%",
+    left: "0%",
+    width: "100%",
+    height: "50%",
+  },
+  "IMG_7934.webp": {
+    top: "40%",
+    left: "19%",
+    width: "65%",
+    height: "20%",
+  },
+  "IMG_7935.webp": {
+    top: "39%",
+    left: "1%",
+    width: "100%",
+    height: "50%",
+  },
+  "IMG_8502.webp": {
+    top: "40%",
+    left: "1%",
+    width: "100%",
+    height: "50%",
+  },
+  "IMG_8510.webp": {
+    top: "31%",
+    left: "28%",
+    width: "50%",
+    height: "60%",
+  },
+  "IMG_8512.webp": {
+    top: "35%",
+    left: "18%",
+    width: "55%",
+    height: "33%",
+  },
+  "jeans.webp": {
+    top: "40%",
+    left: "1%",
+    width: "100%",
+    height: "50%",
+  },
+  "jeans_pants.webp": {
+    top: "39%",
+    left: "1%",
+    width: "100%",
+    height: "50%",
+  },
+  "Pants (Beige).webp": {
+    top: "39%",
+    left: "6%",
+    width: "90%",
+    height: "50%",
+  },
+  "Pants (Black).webp": {
+    top: "39%",
+    left: "8%",
+    width: "90%",
+    height: "50%",
+  },
+  "pants.webp": {
+    top: "39%",
+    left: "6%",
+    width: "90%",
+    height: "50%",
+  },
 };
 
 let activeAvatar = null;

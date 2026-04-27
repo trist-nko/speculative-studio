@@ -31,7 +31,7 @@ app.post("/api/speculate", async (req, res) => {
 They're wearing:
 ${descriptions.map((d) => `— ${d}`).join("\n")}
 
-Write a quick note — three sentences max — about the vibe they're giving off. Don't analyze. Don't explain. Just react, the way you would in your head before the thought disappears.`;
+Write a quick note — four to five sentences — about the vibe they're giving off. Don't analyze. Don't explain. Just react, the way you would in your head before the thought disappears. Make assumptions about the kind of person they appear to be.`;
 
   try {
     const geminiRes = await fetch(

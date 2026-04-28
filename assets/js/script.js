@@ -579,13 +579,9 @@ const toggleDropdown = (event) => {
   // If the menu is now shown, load its images
   if (menu.classList.contains("show")) {
     menu.querySelectorAll("img[data-src]").forEach((img) => {
-      // Only load if the src is still the placeholder or empty
-      if (
-        img.src ===
-          "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=" ||
-        img.src === ""
-      ) {
-        img.src = img.dataset.src; // Set the actual image source from data-src
+      const rawSrc = img.getAttribute("src");
+      if (!rawSrc || rawSrc.startsWith("data:")) {
+        img.src = img.dataset.src;
       }
     });
   }
